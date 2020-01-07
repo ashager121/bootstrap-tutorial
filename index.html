@@ -7,22 +7,52 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/style.css">
-
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 
 <body>
+    <style>
+        .jumbotron {
+            background-color: #2e2d88;
+            color: white;
+        }
 
+        /* adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+    </style>
     <div class="container">
         <div class="page-header">
             <h1>Bootstrap Tutorial</h1>
         </div>
         <div class="jumbotron">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do fdafdsaf dsafdsafdsa fdsafdsafdsaf
+                dsafdsafdsafdsa.</p>
+            <p>
+                <a href="#" class="btn btn-default btn-lg" role="button">More info</a>
+                <button type="submit" class="btn btn-danger" role="button">Button</button>
+                <input type="button" value="Info" class="btn btn-info">
+                <button type="submit" class="btn-primary btn-sm">Primary</button>
+                <button type="submit" class="btn btn-success btn-xs">Success</button>
+                <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+                <button type="submit" class="btn btn-link btn-lg">Link</button>
+
+                <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+                <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+            </p>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
-</html>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
